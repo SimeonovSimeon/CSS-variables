@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Playground</title>
+  <meta name="description" content="Simeon Sandbox">
+  <meta name="author" content="Simeon">
+
+  <style>
+    :root {
+      --mainBackgroundColor: coral;
+      --secondaryBackgroundColor: #f5f5f5;
+      --maxWidth: 80%;
+      --mainFontColor: #525252;
+      --secondaryFontColor: #fff;
+      --mainFontFamily: Arial;
+      --mainFontSize: 18px;
+    }
+    body {
+      max-width: var(--maxWidth);
+      margin: 0 auto;
+      color: var(--mainFontColor);
+      font-family: var(--mainFontFamily);
+      font-size: var(--mainFontSize);
+    }
+    .divOne, .divThree {
+      background: var(--mainBackgroundColor);
+      color: var(--secondaryFontColor);
+    }
+    .divTwo, .divFour {
+      background: var(--secondaryBackgroundColor);
+    }
+    .divOne, .divTwo, .divThree, .divFour {
+      padding: 20px;
+    }
+
+    @media (max-width: 768px) {
+      :root {
+        --mainBackgroundColor: pink;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+
+    </nav>
+  </header>
+
+  <section>
+    <div class="divOne">
+      <p>Some text</p>
+    </div>
+
+    <div class="divTwo">
+      <p>Text field for div</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="divThree">
+      <p>Text for the second part</p>
+    </div>
+
+    <div class="divFour">
+      <p>example Lorem Ipsum</p>
+    </div>
+  </section>
+
+  <script>
+
+  </script>
+</body>
+</html>
